@@ -1,3 +1,4 @@
-from django.shortcuts import render
+from django.http import HttpResponse
+def feriado(request):
 
-# Create your views here.
+    return HttpResponse("Não é feriado.")
